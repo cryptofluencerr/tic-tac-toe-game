@@ -9,31 +9,29 @@
   </head>
   <body>
     <div id="main">
-      <h1></h1>
+      <h1>T</h1>
       <p>
         Tap on the box to start the game <br /><br />First player starts
         <br /><br />
-        <b> Player X </b> <br />
-        And <br />
-        Second player as <br />
-        <b>Player 0</b>
+        <b> "0"</b><br />And<br />
+        <b> "X"</b>
       </p>
       <br />
       <br />
-      <input type="text" id="b1" readonly />
-      <input type="text" id="b2" readonly />
-      <input type="text" id="b3" readonly />
+      <input type="text" id="b1" onclick="myFunc1(); checkWin()" readonly />
+      <input type="text" id="b2" onclick="myFunc2(); checkWin()" readonly />
+      <input type="text" id="b3" onclick="myFunc3(); checkWin()" readonly />
       <br />
       <br />
-      <input type="text" id="b4" readonly />
-      <input type="text" id="b5" readonly />
-      <input type="text" id="b6" readonly />
+      <input type="text" id="b4" onclick="myFunc4(); checkWin()" readonly />
+      <input type="text" id="b5" onclick="myFunc5(); checkWin()" readonly />
+      <input type="text" id="b6" onclick="myFunc6(); checkWin()" readonly />
       <br /><br />
-      <input type="text" id="b7" readonly />
-      <input type="text" id="b8" readonly />
-      <input type="text" id="b9" readonly />
+      <input type="text" id="b7" onclick="myFunc7(); checkWin()" readonly />
+      <input type="text" id="b8" onclick="myFunc8(); checkWin()" readonly />
+      <input type="text" id="b9" onclick="myFunc9(); checkWin()" readonly />
       <br /><br /><br />
-      <button id="reset-el">RESET</button>
+      <button id="reset-el" onclick="myFuncReset()">RESET</button>
       <br /><br />
       <p id="print"></p>
       <script src="index.js"></script>
