@@ -242,7 +242,10 @@ function checkWin() {
     b9.disabled = "true";
     window.alert("Player 1 won");
     myFuncReset();
-  } else if (
+  }
+
+  // Check 0's win
+  else if (
     (b1.value == "0" || b1.value == "0") &&
     (b2.value == "0" || b2.value == "0") &&
     (b3.value == "0" || b3.value == "0")
